@@ -91,7 +91,7 @@ export default function AjouterVoiture() {
   return (
     <div className="p-6 max-w-[80%] mt-10 mx-auto bg-white rounded-xl shadow-md">
       <h2 className="text-3xl font-semibold mb-4 text-center">
-        Ajouter une voiture
+        Gestion des voiture de Location
       </h2>
       
       {errors.length > 0 && (
