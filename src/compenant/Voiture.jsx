@@ -20,7 +20,7 @@ export default function Voiture(props) {
           onClick={() => props.deleteCar(props.car.id)} 
           className="bg-red-600 px-6 py-2 rounded-xl text-gray-100 hover:bg-red-800 transition duration-200"
         >
-          Delete
+          Suprimer
         </button>
       </td>
     </tr>
