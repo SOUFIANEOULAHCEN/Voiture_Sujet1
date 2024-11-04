@@ -82,7 +82,7 @@ export default function AjouterVoiture() {
       prix.current.value = "";
       setImg(null);
 
-      setSuccessMessage('Ajout de la voiture réussi !');
+      setSuccessMessage('la voiture voiture est ajouté en réussi !');
     };
 
     reader.readAsDataURL(img);
